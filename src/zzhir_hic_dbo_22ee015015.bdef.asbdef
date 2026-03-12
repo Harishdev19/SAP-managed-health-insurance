@@ -1,0 +1,56 @@
+managed implementation in class ZZHIBP_R_HIC_DBO_22EE015015 unique;
+strict ( 2 );
+with draft;
+extensible;
+define behavior for ZZHIR_HIC_DBO_22EE015015 alias ZzhirHicDbo22ee015015
+persistent table ZHIC_DBO_22EE015
+extensible
+draft table ZZHIHC_DBO_D015
+etag master LocalLastChangedAt
+lock master total etag LastChangedAt
+authorization master( global )
+{
+  field ( readonly )
+   ClaimID,
+   LocalCreatedBy,
+   LocalCreatedAt,
+   LocalLastChangedBy,
+   LocalLastChangedAt,
+   LastChangedAt;
+
+  field ( numbering : managed )
+   ClaimID;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZHIC_DBO_22EE015 corresponding extensible
+  {
+    ClaimID = CLAIM_ID;
+    PolicyNumber = POLICY_NUMBER;
+    PatientName = PATIENT_NAME;
+    PatientDob = PATIENT_DOB;
+    HospitalName = HOSPITAL_NAME;
+    AdmissionDate = ADMISSION_DATE;
+    DischargeDate = DISCHARGE_DATE;
+    Diagnosis = DIAGNOSIS;
+    ClaimAmount = CLAIM_AMOUNT;
+    ApprovedAmount = APPROVED_AMOUNT;
+    ClaimStatus = CLAIM_STATUS;
+    ClaimType = CLAIM_TYPE;
+    LocalCreatedBy = LOCAL_CREATED_BY;
+    LocalCreatedAt = LOCAL_CREATED_AT;
+    LocalLastChangedBy = LOCAL_LAST_CHANGED_BY;
+    LocalLastChangedAt = LOCAL_LAST_CHANGED_AT;
+    LastChangedAt = LAST_CHANGED_AT;
+  }
+
+}

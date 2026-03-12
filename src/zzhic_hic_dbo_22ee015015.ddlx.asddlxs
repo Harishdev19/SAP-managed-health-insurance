@@ -1,0 +1,251 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'ClaimID'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'ClaimID'
+annotate view ZZHIC_HIC_DBO_22EE015015 with
+{
+  @EndUserText.label: 'ClaimID'
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'ClaimID'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'ClaimID'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  ClaimID;
+  
+  @EndUserText.label: 'PolicyNumber'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'PolicyNumber'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'PolicyNumber'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  PolicyNumber;
+  
+  @EndUserText.label: 'PatientName'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'PatientName'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'PatientName'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  PatientName;
+  
+  @EndUserText.label: 'PatientDob'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'PatientDob'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'PatientDob'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  PatientDob;
+  
+  @EndUserText.label: 'HospitalName'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'HospitalName'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'HospitalName'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  HospitalName;
+  
+  @EndUserText.label: 'AdmissionDate'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'AdmissionDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'AdmissionDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  AdmissionDate;
+  
+  @EndUserText.label: 'DischargeDate'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'DischargeDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'DischargeDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  DischargeDate;
+  
+  @EndUserText.label: 'Diagnosis'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'Diagnosis'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'Diagnosis'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  Diagnosis;
+  
+  @EndUserText.label: 'ClaimAmount'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'ClaimAmount'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'ClaimAmount'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  ClaimAmount;
+  
+  @EndUserText.label: 'ApprovedAmount'
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'ApprovedAmount'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'ApprovedAmount'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  ApprovedAmount;
+  
+  @EndUserText.label: 'ClaimStatus'
+  @UI.identification: [ {
+    position: 110 , 
+    label: 'ClaimStatus'
+  } ]
+  @UI.lineItem: [ {
+    position: 110 , 
+    label: 'ClaimStatus'
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  ClaimStatus;
+  
+  @EndUserText.label: 'ClaimType'
+  @UI.identification: [ {
+    position: 120 , 
+    label: 'ClaimType'
+  } ]
+  @UI.lineItem: [ {
+    position: 120 , 
+    label: 'ClaimType'
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  ClaimType;
+  
+  @UI.identification: [ {
+    position: 130 
+  } ]
+  @UI.lineItem: [ {
+    position: 130 
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  LocalCreatedBy;
+  
+  @UI.identification: [ {
+    position: 140 
+  } ]
+  @UI.lineItem: [ {
+    position: 140 
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  LocalCreatedAt;
+  
+  @UI.identification: [ {
+    position: 150 
+  } ]
+  @UI.lineItem: [ {
+    position: 150 
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  LocalLastChangedBy;
+  
+  @UI.identification: [ {
+    position: 160 
+  } ]
+  @UI.lineItem: [ {
+    position: 160 
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  LocalLastChangedAt;
+  
+  @UI.identification: [ {
+    position: 170 
+  } ]
+  @UI.lineItem: [ {
+    position: 170 
+  } ]
+  @UI.selectionField: [ {
+    position: 170 
+  } ]
+  LastChangedAt;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 180 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 180 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 180 
+  } ]
+  _BaseEntity;
+}

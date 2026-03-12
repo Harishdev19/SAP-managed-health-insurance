@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZZHIR_HIC_DBO_22EE015015'
+@MappingRole: true
+define role ZZHIR_HIC_DBO_22EE015015 {
+  grant select on ZZHIR_HIC_DBO_22EE015015
+  where TRUE;
+}

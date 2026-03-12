@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZZHIC_HIC_DBO_22EE015015'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZZHIC_HIC_DBO_22EE015015'
+  }
+}
+define service ZZHIUI_HIC_DBO_22EE015_O4015 provider contracts odata_v4_ui {
+  expose ZZHIC_HIC_DBO_22EE015015;
+}
